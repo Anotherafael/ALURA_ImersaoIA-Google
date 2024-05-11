@@ -16,15 +16,16 @@ O projeto abrange os seguintes aspectos do Gemini-1.0-Pro:
 - Embedding: Demonstra como gerar representações vetoriais de texto usando a função embedding do Gemini-1.0-Pro.
 - Geração de Conteúdo: Explora a função generate_content para gerar texto coerente e criativo a partir de prompts específicos.
 
-## Pré-requisitos
+## Como usar?
 
-- API Key do [Google AI Studio](https://aistudio.google.com/): É necessário ter uma API Key para ter acesso à API do Gemini.
-- Instalar o [Python](https://www.python.org/) ou acessar pelo [Google Colab](https://colab.google/)
-- Instalar as bibliotecas no arquivo requirements.txt usando o comando 
+- Crie uma API Key do [Google AI Studio](https://aistudio.google.com/).
+- Instale o [Python](https://www.python.org/) ou acesse pelo [Google Colab](https://colab.google/)
+- Instale as bibliotecas no arquivo requirements.txt usando o comando:
 
-    ```pip install -r requirements.txt.``` 
+     ```pip install -r requirements.txt```
 
-
-## Notas
-
-- Por motivos de tempo de execução, o modelo atual foi limitado a 100 filmes. Mas, se quiserem fazer o embedding dos 4.800 filmes... Feel free to do so 😊.
+    ou, caso esteja no Google Colab:
+    
+     ```!pip install -r requirements.txt```
+- Faça um cópia do arquivo ```.env.example``` e renomeie para ```.env```. Após isso, adicione a sua chave de API do Google AI Studio na ```API_KEY```.
+- Enjoy it. 😊
